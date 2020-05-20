@@ -1,0 +1,279 @@
+@function rem($value){
+  @return unquote(($value/1px)/16+"rem");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+}
+body{
+  height: auto;
+  color: rgb(73, 53, 53);
+  background-image: url(IMAG4728.JPG);
+  font-size: 1rem;
+  
+  
+}
+body a{
+  color: wheat;
+}
+body a:hover{
+  color: black;
+}
+/*homepage*/
+.row{
+  margin-top: 8%;
+  flex-wrap: wrap;
+}
+/*header navbar*/
+nav {
+  background: olive;
+  
+  
+}
+nav a{
+  color: wheat;
+}
+nav a:hover{
+  background: grey;
+  color: black;
+}
+.dropdown-menu a{
+  background: olive;
+  color: wheat;
+  opacity: .8;
+}
+.dropdown-menu a:hover{
+  background: silver;
+  color: black;
+}
+.dropdown-menu{
+  background: olive !important;
+  border: none !important;
+}
+
+.author img{
+  border-radius: 50%;
+}
+/*Blog body content*/
+.fa{
+  margin-left: 2px;
+}
+@media (max-width: 400px){
+  .row{
+    padding-top: 10%;
+  }
+  .mfc{
+    margin-left: 20px;
+  }
+  /*.container-fluid .col-sm-12{
+    position: relative;
+    z-index: 1;
+    background: wheat;
+    width: 17rem;
+    height: 30rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 5em;
+    box-shadow: 2px rgba(255, 0, 0, 0.349);
+    display: flex;
+    flex: row wrap;
+  }*/
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse{
+  padding: .5rem !important;
+} 
+}
+  /*.mobileMenu{
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      background: olive;
+      transform: translateX(-100%);
+      transition: all ease 0.25s;
+      
+      
+  }
+  
+  div.content{
+      flex-direction: column;
+      margin-top: 12% !important;
+      
+  }
+  
+  
+}
+
+
+    
+/*blog.main*/
+.section1{
+  margin-top: 105px;
+}
+.col-sm-12 img{
+  padding-top: 5px;
+  
+}
+
+.article{
+  border: none;
+  padding: 5px;
+  background: rgb(143, 143, 93);
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+
+}
+ui-to-top{
+  transform: translateY(0);
+}
+/*index.html*/
+#intro{
+  background: olive;
+  border: 1px solid olive;
+  padding-bottom: 15px;
+}
+
+#author{
+  background: rgb(116, 102, 77);
+  
+  border: none;
+  border: 1px solid rgb(116, 102, 77);
+  padding-bottom: 15px;
+}
+.inquiry{
+  background: olive;
+  padding-bottom: 15px;
+  border: 1px solid olive;
+  padding-bottom: 15px;
+}
+
+#contact{
+  background: rgb(51, 46, 46);
+  border: 2px solid rgb(51, 46, 46);
+  padding-bottom: 15px;
+  margin: 0em;
+}
+.form-control{
+  background-color: wheat !important;
+}
+.submit-btn{
+  background-color: silver;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.2);
+  font-style: oblique;
+  padding: 2px;
+  border: none !important;
+ 
+}
+.submit-btn:hover{
+  color: brown;
+}
+/*footer*/
+footer{
+  background: olive;
+  color: black;
+ 
+}
+footer .row{
+  margin-top: 0%;
+}
+
+
+/*training*/
+.purchase >h1{
+  padding-top: 1vmin;
+  padding-bottom: 0.1em;
+  
+}
+.purchase .card{
+  position: relative;
+  z-index: 1;
+  background: none;
+  width: 17rem;
+  height: 17rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 5em;
+  box-shadow: 3px rgba(255, 0, 0, 0.349);
+  border: none;
+}
+#training{
+  justify-content: center;
+}
+.courseintro p{
+  font-size: 18px;
+}
+ 
+  
+
+.card-body ul h6{
+  color: rgb(161, 69, 69);
+  font-style: italic;
+}
+.card-body ul li{
+  color: rgb(161, 69, 69);
+  font-style: italic;
+}
+.card-body ol h6{
+  color: olivedrab;
+  font-style: italic;
+}
+.card-body ol li{
+  color: olivedrab;
+  font-style: italic;
+}
+.container-fluid .col-lg-6{
+  background-color: wheat;
+}
+.card-body{
+  background-color: burlywood;
+  border-radius: 4em;
+  
+}
+.card-body .btn{
+  color: wheat;
+}
+.card-body .btn:hover{
+  color: whitesmoke;
+}
+/*aboutmushrooms.html*/
+#amMenu{
+  margin-top: 95px;
+  padding: 10px;
+  
+}
+.am-menu .card{
+  background: url(IMAG6221.jpg);
+  border: none;
+  margin: 10px;
+}
+.am-menu .card a:hover{
+  color: silver;
+}
+.am-menu .card-body{
+  background-color: rgb(25, 102, 102);
+}
+/*mushrromfarming*/
+#mfIntro{
+  margin-top: 95px;
+}
+.mf-menu .card{
+  border: none;
+  background: url(IMAG4728.jpg);
+  margin: 10px;
+}
+.mf-menu .card-body{
+  background-color: rgb(146, 101, 55);
+}
+/*cookingmushrooms*/
+#cmIntro{
+  margin-top: 100px;
+}
